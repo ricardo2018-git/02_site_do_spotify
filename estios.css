@@ -14,6 +14,7 @@ body{
 				linear-gradient(50deg, #ff4169, #7c26f8);
 	background-attachment: fixed;
 	font-family:Helvetica,Arial,sans-serif;
+	overflow-x: hidden;		/*Remove a barra de lolagem da pg*/
 }
 
 /* -- Barra de navegação -- */
@@ -102,6 +103,20 @@ nav.navbar-transparente{
 	padding: 10px 0px 10px 0px;
 }
 
+/* -- Recursos -- */
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);	/* IE 9 */
+	-webkit-transform: rotate(30deg);	/* Chrome, Safari, Opera*/
+	padding-left: 80px;
+}
+
 /* ========== tipografia ========== */
 h1{
 	font-size: 100px;
@@ -122,6 +137,10 @@ h3{
 	letter-spacing: -0.04em;
 }
 
-#servicos,h3,h2{
+#h{
 	color: #7c25f8;
+}
+
+#recursos h3{
+	color: #9bf0e1;
 }
